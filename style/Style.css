@@ -39,7 +39,7 @@ body{
     letter-spacing: 1px;
 }
 
-.main-talk button{
+button{
     margin-top: 30px;
     background-color: #fff;
     padding: 15px 40px;
@@ -51,9 +51,224 @@ body{
     box-shadow: 0 3px #b6c2ca;
 }
 
-.main-talk button:hover {
+button:hover {
     background-color: #8495a1
 }
+
+
+/* Style the second section  */
+
+.grey-bg{
+    padding: 10%;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.grey-bg .icons{
+    display: flex;
+}
+
+.grey-bg h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #756d6d;
+    margin-top: 60px;
+}
+
+.grey-bg h3{
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #756d6d;
+    max-width: 450px;
+}
+
+.grey-bg .fa{
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 30px;
+    margin: 30px 20px;
+    font-size: x-large;
+    color: #565656;
+}
+
+
+.grey-bg p{
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #756d6d;
+    max-width: 750px;
+}
+
+.grey-bg button{
+    background-color: #f7f7f7;
+}
+
+/* Style the third section */
+
+.third{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+}
+
+.third h1{
+    font-size: 30px;
+    font-weight: normal;
+    color: #756d6d;
+    margin-top: 60px;
+}
+
+.third h3{
+    margin-top: 20px;
+    font-weight: lighter;
+    color: #756d6d;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.third .container{
+    display: flex;
+    justify-content: space-between;
+    justify-content:space-around;
+	padding:25px 0 ;
+	max-width:1280px;
+	margin-bottom: 50px;
+
+}
+
+#left {
+    margin-left:110px;
+}
+
+.image{
+    width: 40vw;
+    height: 60vh;
+    border-radius: 5%;
+}
+
+.text{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.text p{
+    max-width: 400px;
+    font-weight: lighter;
+}
+
+.third .description {
+    margin-top: 50px;
+}
+
+.description p{
+font-weight: lighter;
+
+}
+
+
+/* Style forth section */
+
+.Amet{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    height: 60vh;
+    background-image: url(../assets/First-section.jpg) ;
+    padding-bottom: 3rem;
+    color: #fff;
+}
+
+.Amet  h3{
+    margin-top:50px;
+}
+
+.Amet p{
+    font-weight: lighter;
+    letter-spacing: 1px;
+    max-width:650px;
+    margin-top:50px;
+}
+
+.Amet button{
+    background-color: transparent;
+    color: #fff;
+}
+
+.contact {
+    padding: 10%;
+    display: flex;
+    background-color: #f7f7f7;
+    align-items: baseline;
+    padding-top: 6rem;
+}
+
+.contact article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.contact h3{
+    margin-top: 15px;
+    margin-bottom: 30px ;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.contact p{
+    max-width: 600px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height:34px;
+}
+
+.contact i{
+    padding: 10px;
+    border: 1px solid rgb(58, 56, 56);
+    color: rgb(58, 56, 56);
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 2.5px;
+    margin-top: 30px;
+}
+
+.form{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form input{
+    padding: 20px;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    border: none;
+    margin-left: 1%;
+    width: 45%;
+}
+
+.form textarea{
+    width: 90%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0;
+    border: none;
+}
+
+
 
 @media (max-width: 600px){
 
@@ -65,5 +280,5 @@ body{
     align-items: center;
     justify-content: space-around;
     }
-    
+
 }
