@@ -3,15 +3,14 @@
     padding: 0;
     box-sizing: 0;
     margin: 0;
+    font-family: "Poppins",'Times New Roman', Times, serif;
+
 }
 
-body{
-    font-family: "Poppins",'Times New Roman', Times, serif;
-}
+                        /* Styling Navbar */
 
 nav{
-    padding: 5%;
-    background-color: #ffffff;
+    padding: 5% 5% 0px;
     display: flex;
     justify-content: flex-end;
 }
@@ -26,13 +25,13 @@ nav .fa{
     color: #fff;
 }
 
+                        /* Styling Header */
+
 header{
-    padding: 10%;
-    padding-top: 0px;
-    background-color: #ffffff;
+    padding:  0px 10% 10%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .circle-img{
@@ -73,8 +72,7 @@ button:hover {
     background-color: #8495a1
 }
 
-
-/* Style the second section  */
+                        /* Style the second section  */
 
 main{
     padding: 10%;
@@ -86,11 +84,34 @@ main{
 }
 
 main .icons{
+    position: relative;
     display: flex;
+    background: #F9F9F9;
+    padding: 1em;
+}
+
+/* .icons::before {
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 0;
+    left: 0;
+    Content: "";
+    Background-color: grey;
+    height: 3px;
+} */
+
+main .fa{
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 30px;
+    margin: 30px 20px;
+    font-size: x-large;
+    color: #565656;
+    z-index: 1;
+    background: #F9F9F9;
 }
 
 main h1{
-    font-size: 30px;
     font-weight: normal;
     color: #756d6d;
     margin-top: 60px;
@@ -103,17 +124,6 @@ main h3{
     max-width: 450px;
 }
 
-main .fa{
-    display: inline-block;
-    border-radius: 60px;
-    box-shadow: 0 0 2px #888;
-    padding: 30px;
-    margin: 30px 20px;
-    font-size: x-large;
-    color: #565656;
-}
-
-
 main p{
     margin-top: 20px;
     font-weight: lighter;
@@ -125,7 +135,7 @@ main button{
     background-color: #f7f7f7;
 }
 
-/* Style the third section */
+                        /* Style the third section */
 
 .third{
     padding: 10%;
@@ -187,10 +197,8 @@ main button{
 }
 
 .description p{
-font-weight: lighter;
-
+    font-weight: lighter;
 }
-
 
 /* Style forth section */
 
@@ -201,7 +209,11 @@ font-weight: lighter;
     align-items: center;
     text-align: center;  
     height: 60vh;
-    background-image: url(../assets/FirstSection.jpg) ;
+    background-image: url(../assets/image2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
     padding-bottom: 3rem;
     color: #fff;
 }
@@ -222,7 +234,7 @@ font-weight: lighter;
     color: #fff;
 }
 
-/* Footer section */
+/* Styling Footer section */
 
 .contact {
     padding: 10%;
@@ -293,9 +305,4 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #f7f7f7;
-}
-
-.footer p{
-    font-size: 10px;
-    font-weight: lighter;
 }

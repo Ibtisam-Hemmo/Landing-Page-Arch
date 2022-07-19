@@ -1,3 +1,6 @@
+
+/* Responsive Mobile View */
+
 @media (max-width: 600px) {
 
     /* Responsive Header */
@@ -33,7 +36,7 @@
         margin: 20px 10px;
     }
 
-        /* Responsive third section */
+    /* Responsive third section */
 
     .third .container{
         flex-direction: column;
@@ -58,7 +61,6 @@
 
     .third .reverse-second{
         flex-direction: column-reverse;
-
     }
 
     .third #left {
@@ -85,6 +87,4 @@
     .contact button{
         width: 100%;
     }
-
-    
 }
