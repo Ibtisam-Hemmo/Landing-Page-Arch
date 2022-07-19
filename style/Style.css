@@ -300,7 +300,7 @@ main button{
 }
 
 footer {
-    padding: 8%;
+    padding: 0px 8% 8% ;
     text-align: center;
     display: flex;
     justify-content: center;
