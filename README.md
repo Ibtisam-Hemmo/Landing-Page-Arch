@@ -1,4 +1,5 @@
 # Week 1 - Project 1
-Live Preview for the landing page :
+### Live Preview for the landing page :
+:curly_loop: [Landing Page](https://ibtisam-hemmo.github.io/Landing-Page-Arch/)  :curly_loop:
 
-![screencapture-file-E-Code-Academy-G12-Week-1-Project-1-index-html-2022-07-19-02_15_27](https://user-images.githubusercontent.com/62811477/179632478-b3def388-5de4-48d6-a76f-4345937ba835.png)
+ #### **This work is for applying Accessability and responsiveness in _Mobile_ and _Desktop_ view**
