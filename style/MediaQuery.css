@@ -1,7 +1,90 @@
 @media (max-width: 600px) {
 
-    .white-pg{
+    /* Responsive Header */
+
+    header{
         display: flex;
         flex-direction: column;
     }
+
+    .circle-img{
+        height: 30vh;
+        width: 60vw;
+    }
+
+    .main-talk{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+
+    /* Responsive second section */
+
+    main .icons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    main .fa{
+        margin: 20px 10px;
+    }
+
+        /* Responsive third section */
+
+    .third .container{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .third .text{
+        width: 65vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .third .image{
+        width: 70vw;
+        height: 40vh;
+        border-radius: 5%;
+        margin-top: 25px;
+    }
+
+    .third .reverse-second{
+        flex-direction: column-reverse;
+
+    }
+
+    .third #left {
+        margin-left: 0px;
+    }
+
+    .third .description {
+        margin-top: 20px;
+    }
+
+    /* Responsive Contact form */
+    .contact {
+        padding: 10%;
+        flex-direction: column;
+        background-color: #f7f7f7;
+        padding-top: 6rem;
+        text-align: center;
+    }
+
+    .contact article{
+        align-items: center;
+    }
+
+    .contact button{
+        width: 100%;
+    }
+
+    
 }

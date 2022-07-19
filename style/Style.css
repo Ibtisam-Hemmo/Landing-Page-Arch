@@ -9,8 +9,26 @@ body{
     font-family: "Poppins",'Times New Roman', Times, serif;
 }
 
-.white-bg{
+nav{
+    padding: 5%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .fa{
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 20px;
+    margin: 20px;
+    font-size: x-large;
+    background-color: #565656;
+    color: #fff;
+}
+
+header{
     padding: 10%;
+    padding-top: 0px;
     background-color: #ffffff;
     display: flex;
     align-items: center;
@@ -19,8 +37,8 @@ body{
 
 .circle-img{
     border-radius: 50%;
-    width:350px;
-    height:350px;
+    width: 25vw;
+    height: 50vh;
 }
 
 .main-talk h1{
@@ -58,7 +76,7 @@ button:hover {
 
 /* Style the second section  */
 
-.grey-bg{
+main{
     padding: 10%;
     background-color: #f7f7f7;
     display: flex;
@@ -67,25 +85,25 @@ button:hover {
     text-align: center;
 }
 
-.grey-bg .icons{
+main .icons{
     display: flex;
 }
 
-.grey-bg h1{
+main h1{
     font-size: 30px;
     font-weight: normal;
     color: #756d6d;
     margin-top: 60px;
 }
 
-.grey-bg h3{
+main h3{
     margin-top: 20px;
     font-weight: lighter;
     color: #756d6d;
     max-width: 450px;
 }
 
-.grey-bg .fa{
+main .fa{
     display: inline-block;
     border-radius: 60px;
     box-shadow: 0 0 2px #888;
@@ -96,14 +114,14 @@ button:hover {
 }
 
 
-.grey-bg p{
+main p{
     margin-top: 20px;
     font-weight: lighter;
     color: #756d6d;
     max-width: 750px;
 }
 
-.grey-bg button{
+main button{
     background-color: #f7f7f7;
 }
 
@@ -134,7 +152,6 @@ button:hover {
 
 .third .container{
     display: flex;
-    justify-content: space-between;
     justify-content:space-around;
 	padding:25px 0 ;
 	max-width:1280px;
@@ -146,13 +163,13 @@ button:hover {
     margin-left:110px;
 }
 
-.image{
+.third .image{
     width: 40vw;
     height: 60vh;
     border-radius: 5%;
 }
 
-.text{
+.third .text{
     width: 45vw;
     display: flex;
     flex-direction: column;
@@ -160,7 +177,7 @@ button:hover {
     text-align: left;
 }
 
-.text p{
+.third .text p{
     max-width: 400px;
     font-weight: lighter;
 }
@@ -204,6 +221,8 @@ font-weight: lighter;
     background-color: transparent;
     color: #fff;
 }
+
+/* Footer section */
 
 .contact {
     padding: 10%;
@@ -268,17 +287,15 @@ font-weight: lighter;
     border: none;
 }
 
-
-
-@media (max-width: 600px){
-
-    .white-pg{
-    padding: 10%;
-    background-color: #ffffff;
+footer {
+    padding: 8%;
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    }
+    justify-content: center;
+    background-color: #f7f7f7;
+}
 
+.footer p{
+    font-size: 10px;
+    font-weight: lighter;
 }
